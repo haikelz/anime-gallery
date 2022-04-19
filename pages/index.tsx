@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 import { Images } from '@/utils/Props'; 
 import Head from 'next/head'; 
-import ImageCard from '@/pages/components/ImageCard'; 
+import ImageCard from './components/ImageCard'; 
 
 export async function getStaticProps() {
   const supabaseAdmin = createClient(
